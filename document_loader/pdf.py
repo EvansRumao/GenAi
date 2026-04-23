@@ -2,7 +2,7 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 
-data = PyPDFLoader("document loader/GRU.pdf")
+data = PyPDFLoader("/GenAI/RAG project/document_loader/GRU.pdf")
 
 docs = data.load()
 
