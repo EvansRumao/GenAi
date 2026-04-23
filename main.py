@@ -10,9 +10,9 @@ load_dotenv()
 model=ChatMistralAI(
   model="mistral-small-2506"
 )
-data = PyPDFLoader("document loader/GRU.pdf")
+data = PyPDFLoader("document_loader/GRU.pdf")
 
-# data = TextLoader("document loader/notes.txt")
+# data = TextLoader("document_loader/notes.txt")
 docs=data.load()
 template=ChatPromptTemplate.from_messages(
   [

@@ -3,7 +3,7 @@ from langchain_community.document_loaders import TextLoader
 
 # load_dotenv()
 
-data = TextLoader("document loader/notes.txt")
+data = TextLoader("document_loader/notes.txt")
 
 
 docs=data.load()
